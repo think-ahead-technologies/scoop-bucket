@@ -1,0 +1,22 @@
+{
+    "version": "0.1.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/think-ahead-technologies/kunnus-scanner/releases/download/v0.1.2/kunnus_windows_amd64.zip",
+            "bin": [
+                "kunnus.exe"
+            ],
+            "hash": "14b949a4fbd13b54ae2a3960356753d0631db826dd227a6074b9acdda2349fbd"
+        },
+        "arm64": {
+            "url": "https://github.com/think-ahead-technologies/kunnus-scanner/releases/download/v0.1.2/kunnus_windows_arm64.zip",
+            "bin": [
+                "kunnus.exe"
+            ],
+            "hash": "2e9109759705a5642638fd933645fa2cb305ac3a146077f3308ea39657149f2a"
+        }
+    },
+    "homepage": "https://github.com/think-ahead-technologies/kunnus-scanner",
+    "license": "Apache-2.0",
+    "description": "Vulnerability scanner for your software dependencies"
+}
