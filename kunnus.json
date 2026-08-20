@@ -1,22 +1,25 @@
 {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/think-ahead-technologies/kunnus-scanner/releases/download/v1.1.0/kunnus_windows_amd64.zip",
+            "url": "https://github.com/think-ahead-technologies/kunnus-scanner/releases/download/v1.2.0/kunnus_windows_amd64.zip",
             "bin": [
                 "kunnus.exe"
             ],
-            "hash": "74df54ddb6e59acb4ad46c66158ed41c953ee9a2f0ee7ed07dea2b385de0e6cc"
+            "hash": "c40f12456b76ec0dd6c52e5b3a6d24ddb4094bc36585134e80316a9d0469a1c3"
         },
         "arm64": {
-            "url": "https://github.com/think-ahead-technologies/kunnus-scanner/releases/download/v1.1.0/kunnus_windows_arm64.zip",
+            "url": "https://github.com/think-ahead-technologies/kunnus-scanner/releases/download/v1.2.0/kunnus_windows_arm64.zip",
             "bin": [
                 "kunnus.exe"
             ],
-            "hash": "da540d9a875b86dfe643413f13e592d647a9a1f02c881652e92a0f49d85b84dc"
+            "hash": "ff87d037120e3560d2ac9ecb40560308119118ced40227b6c9d84ced71bd45e0"
         }
     },
     "homepage": "https://github.com/think-ahead-technologies/kunnus-scanner",
     "license": "Apache-2.0",
-    "description": "SBOM-generation CLI for the kunnus platform"
+    "description": "SBOM-generation CLI for the kunnus platform",
+    "post_install": [
+        "Write-Host 'For TAB completion, add to your $PROFILE: kunnus completion pwsh | Out-String | Invoke-Expression'"
+    ]
 }
