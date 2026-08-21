@@ -1,19 +1,19 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/think-ahead-technologies/kunnus-scanner/releases/download/v1.2.0/kunnus_windows_amd64.zip",
+            "url": "https://github.com/think-ahead-technologies/kunnus-scanner/releases/download/v1.2.1/kunnus_windows_amd64.zip",
             "bin": [
                 "kunnus.exe"
             ],
-            "hash": "c40f12456b76ec0dd6c52e5b3a6d24ddb4094bc36585134e80316a9d0469a1c3"
+            "hash": "ce457033065bbcbd4233c57c4c2347bdd6a697cf75a403e4eea096397cf864f5"
         },
         "arm64": {
-            "url": "https://github.com/think-ahead-technologies/kunnus-scanner/releases/download/v1.2.0/kunnus_windows_arm64.zip",
+            "url": "https://github.com/think-ahead-technologies/kunnus-scanner/releases/download/v1.2.1/kunnus_windows_arm64.zip",
             "bin": [
                 "kunnus.exe"
             ],
-            "hash": "ff87d037120e3560d2ac9ecb40560308119118ced40227b6c9d84ced71bd45e0"
+            "hash": "9bdc35f2f59382155e153964a03abd398ced0b9c41ab9ae91e0ea6d4e25e80b1"
         }
     },
     "homepage": "https://github.com/think-ahead-technologies/kunnus-scanner",
